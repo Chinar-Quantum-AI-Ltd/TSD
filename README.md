@@ -39,7 +39,8 @@ Following key concepts are covered here:
 
 
 - **Additional concpets covered**
-  Grangers causality test, Parameter selection with AIC , BIC 
+  - Grangers causality test
+  - Parameter selection with AIC , BIC 
 
 ---
 
