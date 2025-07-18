@@ -55,7 +55,7 @@ The notebooks primarily work with the following **financial datasets**:
 - Cryptocurrency price histories.
 - Sales and Revenue datasets
 
-- 
+
 ## License
 
 MIT
