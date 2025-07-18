@@ -1,45 +1,61 @@
 # TSD Project
 
-This project focuses on time series data analysis and preprocessing techniques, with an emphasis on achieving stationarity. It explores various methods for analyzing time series data, handling non-stationarity, and applying transformations to make the data suitable for modeling.
+This project focuses on time series data analysis and preprocessing techniques. It explores various methods for analyzing time series data, handling non-stationarity, and predictive modeling techniques using both **statistical** and **machine learning** approaches.
 
-## Installation
 
-Install dependencies using:
+---
 
-```
-pip install -r requirements.txt
-```
+##  What’s Inside
 
-## Usage
+Following key concepts are covered here:
 
-To start the project, run:
+- **Exploratory Data Analysis (EDA)**  
+  Techniques for visualizing, decomposing, and understanding temporal structures in financial time series.
 
-```
-python main.py
-```
+  
+- **Feature Engineering for Time Series**  
+  Lag features, rolling statistics, seasonal indicators, and date-based encodings.
+  
 
-## Project Structure
+- **Statistical Forecasting Methods**  
+ 
+  - ARIMA / SARIMA  
+  - Facebook Prophet
+  - Vector Auto Regression
+  - Arch/Garch for volatility modeling
+  - Single and Double Exponential Smoothing
+  - Holt Winters Exponential Smoothing
+  
 
-- `src/` - Source code (if any)
-- `Univariate_analysis.ipynb` - Jupyter Notebook containing the time series analysis and preprocessing steps.
-- `data/` - Directory containing the Electric_Production.csv dataset.
-- `requirements.txt` - Lists the Python packages required to run the notebook.
-- `public/` - Static assets (if any)
-- `package.json` - Project configuration (if any)
+- **Machine Learning Approaches**  
 
-## Key Steps Covered in the Notebook:
+  - Random Forests
+  - XGBoost
+  - Long Short Term Memory
 
-1.  **Data Exploration:** Loading and inspecting the time series data, checking for missing values, and visualizing the data.
-2.  **Time Series Decomposition:** Decomposing the time series into trend, seasonal, and residual components to understand underlying patterns.
-3.  **Stationarity Testing:** Applying Augmented Dickey-Fuller (ADF) and KPSS tests to check for stationarity.
-4.  **Skewness and Kurtosis Analysis:** Checking the distribution of the data.
-5.  **Variance Analysis:** Checking the variance of the data.
-6.  **Autocorrelation Analysis:** Checking the correlation of the data with its past values.
-7.  **ARCH Effect Testing:** Applying ARCH test to check for heteroskedasticity.
-8.  **Stationarity Transformation:** Applying transformations such as differencing and logarithmic transformation to convert non-stationary data into stationary data.
-9.  **GARCH Modeling:** Applying GARCH model to check for stationarity.
-10. **Seasonality Analysis:** Applying tests to check for seasonality.
 
+- **Model Optimization and Evaluation**  
+  Grid-search-cv , Randomized-search-cv, Training with cross-validation, and performance metrics (MAE, RMSE, MAPE).
+
+
+- **Additional concpets covered**
+  - Grangers causality test
+  - Parameter selection with AIC , BIC 
+
+---
+
+## Datasets
+
+The notebooks primarily work with the following **financial datasets**:
+
+- Stock price data.
+- Commodity Prices.
+- Foreign Exchnage rates.
+- Inflation rates.
+- Cryptocurrency price histories.
+- Sales and Revenue datasets
+
+- 
 ## License
 
 MIT
