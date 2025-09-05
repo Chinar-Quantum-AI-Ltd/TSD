@@ -55,6 +55,30 @@ The notebooks primarily work with the following **financial datasets**:
 - Cryptocurrency price histories.
 - Sales and Revenue datasets
 
+## Repository structure
+
+TSD/
+│
+├── Notebooks/                       # All Jupyter notebooks
+│   ├── statistical_nb/              # Notebooks for forecasting with statistical methods
+│   │   └── ... (notebooks here)
+│   │
+│   ├── Ml,Dl_nb/                    # Notebooks for forecasting with Machine Learning & Deep Learning methods
+│   │   └── ... (notebooks here)
+│   │
+│   ├── statistical_and_ml_nb/       # Notebooks combining statistical & ML approaches
+│   │   └── ... (notebooks here)
+│   │
+│   └── others/                      # Contains Other experiments
+│       └── ... (notebooks here)
+│
+├── data/                            # General datasets
+│   └── ... (csv, parquet, etc.)
+│
+├── financial_data/                  # Finance-related datasets
+│   └── ... (stock, forex, etc.)
+│
+└── README.md                        # This guide
 
 ## License
 
