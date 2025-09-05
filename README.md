@@ -56,7 +56,7 @@ The notebooks primarily work with the following **financial datasets**:
 - Sales and Revenue datasets
 
 ## Repository structure
-
+```bash
 TSD/
 │
 ├── Notebooks/                       # All Jupyter notebooks
@@ -79,7 +79,7 @@ TSD/
 │   └── ... (stock, forex, etc.)
 │
 └── README.md                        # This guide
-
+```
 ## License
 
 MIT
