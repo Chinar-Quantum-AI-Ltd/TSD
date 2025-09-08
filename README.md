@@ -55,30 +55,72 @@ The notebooks primarily work with the following **financial datasets**:
 - Cryptocurrency price histories.
 - Sales and Revenue datasets
 
-## Repository structure
 
-TSD/
-│
-├── Notebooks/                       # All Jupyter notebooks
-│   ├── statistical_nb/              # Notebooks for forecasting with statistical methods
-│   │   └── ... (notebooks here)
-│   │
-│   ├── Ml,Dl_nb/                    # Notebooks for forecasting with Machine Learning & Deep Learning methods
-│   │   └── ... (notebooks here)
-│   │
-│   ├── statistical_and_ml_nb/       # Notebooks combining statistical & ML approaches
-│   │   └── ... (notebooks here)
-│   │
-│   └── others/                      # Contains Other experiments
-│       └── ... (notebooks here)
-│
-├── data/                            # General datasets
-│   └── ... (csv, parquet, etc.)
-│
-├── financial_data/                  # Finance-related datasets
-│   └── ... (stock, forex, etc.)
-│
-└── README.md                        # This guide
+
+---
+
+
+## Time Series Learning Path – Notebooks Guide
+
+The notebooks are organized into folders and  every notebook is  **independent** but best understood in  the following suggested order .
+
+---
+
+## 1. Statistical Methods (`statistical_nb`)
+
+The `statistical_nb` folder provides the foundations of time series forecasting, starting from univariate analysis and moving toward more advanced statistical methods. These notebooks not only cover essential concepts and exploratory analysis, but also demonstrate best practices for applying forecasting models.
+
+### Recommended Order of Study
+
+1. **Start with univariate basics**
+
+   * `univariate_tsa.ipynb`
+   * `forecasting_inflation_rates_sarima.ipynb`
+
+2. **Apply classical ARIMA/SARIMA**
+
+   * `univariate_tsa_Arima_and_sarima.ipynb`
+
+3. **Explore volatility models (GARCH)**
+
+   * `volatility_modeling_with_Garch.ipynb`
+
+4. **Extend to multivariate forecasting (VAR)**
+
+   * `multivariate_forecasting_with_VAR.ipynb`
+
+5. **Experiment with smoothing methods and Prophet**
+
+   * `Exponential_Smoothing_with_Holt_WInters.ipynb`
+   * `foracasting_with_fb_prophet.ipynb`
+
+---
+
+## 2. Machine Learning & Deep Learning (`Ml_Dl-nb`)
+
+The `ml_dl_nb` folder introduces modern approaches to time series forecasting using machine learning and deep learning models.
+
+1. **Begin with tree-based ML models (Random Forest, XGBoost) to understand feature-based forecasting**
+
+   * `univariate_tsf_random_forest.ipynb`
+
+2. **Deep learning with LSTMs to capture sequential and nonlinear temporal pattern**
+
+   * `univariate_tsf_LSTM.ipynb`
+
+---
+
+## 3. Statistical + ML Combined (`statistical_and_ml.nb`)
+
+This section shows how statistical and machine learning methods can be combined for multivariate forecasting, hence compare and integrate both approaches.
+
+
+* `Multivariate_timeseries_VAR-and-Xgboost.ipynb`
+
+
+
+---
+
 
 ## License
 
