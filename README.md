@@ -86,7 +86,7 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
  **Experiment with smoothing methods and Prophet**
 
    * [Exponential_Smoothing_with_Holt_Winters.ipynb](Notebooks/statistical_nb/Exponential_Smoothing_with_Holt_Winters.ipynb)
-   * [forecasting_with_fb_prophet.ipynb](Notebooks/statistical_nb/foracasting_with_fb_prophet.ipynb)
+   * [forecasting_with_fb_prophet.ipynb](Notebooks/statistical_nb/forecasting_with_fb_prophet.ipynb)
 
 ## 2. [Machine Learning & Deep Learning](Notebooks/Ml,Dl-nb)
 
@@ -94,11 +94,12 @@ The `ML,DL-nb` folder introduces modern approaches to time series forecasting us
 
  **Begin with tree-based ML models (Random Forest, XGBoost) to understand feature-based forecasting**
 
-   * [univariate_tsf_random_forest.ipynb](Notebooks/Ml,Dl-nb/univariate_tsf_random_forest.ipynb)
+   * [univariate_tsf_random_forest.ipynb](Notebooks/ML,DL-nb/univariate_tsf_random_forest.ipynb)
+   * [multivariate_tsf_XGBoost.ipynb](Notebooks/ML,DL-nb/multivariate_tsf_XGBoost.ipynb)
      
  **Deep learning with LSTMs to capture sequential and nonlinear temporal pattern**
 
-   * [univariate_tsf_LSTM.ipynb](Notebooks/Ml,Dl-nb/univariate_tsf_LSTM.ipynb)
+   * [univariate_tsf_LSTM.ipynb](Notebooks/ML,DL-nb/univariate_tsf_LSTM.ipynb)
 
 ## 3. [Statistical + ML Combined](Notebooks/statistical_and_ml_nb)
 
