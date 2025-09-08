@@ -68,37 +68,37 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
 
  **Start with univariate basics**
 
-   * `univariate_tsa.ipynb`
-   * `forecasting_inflation_rates_sarima.ipynb`
+   * [univariate_tsa.ipynb])(Notebooks/statistical_nb/univariate_tsa.ipynb)
+   * [forecasting_inflation_rates_sarima.ipynb](Notebooks/statistical_nb/forecasting_inflation_rates_sarima.ipynb)
      
  **Apply classical ARIMA/SARIMA**
 
-   * `univariate_tsa_Arima_and_sarima.ipynb`
+   * [univariate_tsa_Arima_and_sarima.ipynb](Notebooks/statistical_nb/univariate_tsa_Arima_and_sarima.ipynb)
 
  **Explore volatility models (GARCH)**
 
-   * `volatility_modeling_with_Garch.ipynb`
+   * [volatility_modeling_with_Garch.ipynb](Notebooks/statistical_nb/volatility_modeling_with_Garch.ipynb)
 
  **Extend to multivariate forecasting (VAR)**
 
-   * `multivariate_forecasting_with_VAR.ipynb`
+   * [multivariate_forecasting_with_VAR.ipynb](Notebooks/statistical_nb/multivariate_forecasting_with_VAR.ipynb)
      
  **Experiment with smoothing methods and Prophet**
 
-   * `Exponential_Smoothing_with_Holt_WInters.ipynb`
-   * `foracasting_with_fb_prophet.ipynb`
+   * [Exponential_Smoothing_with_Holt_WInters.ipynb](Notebooks/statistical_nb/Exponential_Smoothing_with_Holt_WInters.ipynb)
+   * [foracasting_with_fb_prophet.ipynb](Notebooks/statistical_nb/foracasting_with_fb_prophet.ipynb)
 
-## 2. [Machine Learning & Deep Learning](Notebooks/Ml_Dl-nb)
+## 2. [Machine Learning & Deep Learning](Notebooks/Ml,Dl-nb)
 
-The `ml_dl_nb` folder introduces modern approaches to time series forecasting using machine learning and deep learning models.
+The `ML,DL-nb` folder introduces modern approaches to time series forecasting using machine learning and deep learning models.
 
  **Begin with tree-based ML models (Random Forest, XGBoost) to understand feature-based forecasting**
 
-   * `univariate_tsf_random_forest.ipynb`
+   * [univariate_tsf_random_forest.ipynb](Notebooks/Ml,Dl-nb/univariate_tsf_random_forest.ipynb)
      
  **Deep learning with LSTMs to capture sequential and nonlinear temporal pattern**
 
-   * `univariate_tsf_LSTM.ipynb`
+   * [univariate_tsf_LSTM.ipynb](Notebooks/Ml,Dl-nb/univariate_tsf_LSTM.ipynb)
 
 ## 3. [Statistical + ML Combined](Notebooks/statistical_and_ml_nb)
 
