@@ -2,7 +2,6 @@
 
 This project focuses on time series data analysis and preprocessing techniques. It explores various methods for analyzing time series data, handling non-stationarity, and predictive modeling techniques using both **statistical** and **machine learning** approaches.
 
-
 ---
 
 ##  What’s Inside
@@ -46,7 +45,7 @@ Following key concepts are covered here:
 
 ## Datasets
 
-The notebooks primarily work with the following **financial datasets**:
+The notebooks primarily works with the following **financial datasets**:
 
 - Stock price data.
 - Commodity Prices.
@@ -55,16 +54,11 @@ The notebooks primarily work with the following **financial datasets**:
 - Cryptocurrency price histories.
 - Sales and Revenue datasets
 
-
-
 ---
-
 
 ## Time Series Learning Path – Notebooks Guide
 
-The notebooks are organized into folders and  every notebook is  **independent** but best understood in  the following suggested order .
-
----
+The notebooks are organized into folders and  every notebook is  **independent** but best understood in  the following suggested order:
 
 ## 1. Statistical Methods (`statistical_nb`)
 
@@ -94,8 +88,6 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
    * `Exponential_Smoothing_with_Holt_WInters.ipynb`
    * `foracasting_with_fb_prophet.ipynb`
 
----
-
 ## 2. Machine Learning & Deep Learning (`Ml_Dl-nb`)
 
 The `ml_dl_nb` folder introduces modern approaches to time series forecasting using machine learning and deep learning models.
@@ -108,15 +100,12 @@ The `ml_dl_nb` folder introduces modern approaches to time series forecasting us
 
    * `univariate_tsf_LSTM.ipynb`
 
----
-
 ## 3. Statistical + ML Combined (`statistical_and_ml.nb`)
 
 This section shows how statistical and machine learning methods can be combined for multivariate forecasting, hence compare and integrate both approaches.
 
 
 * `Multivariate_timeseries_VAR-and-Xgboost.ipynb`
-
 
 
 ---
