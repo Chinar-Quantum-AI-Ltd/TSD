@@ -68,7 +68,7 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
 
  **Start with univariate basics**
 
-   * [univariate_tsa.ipynb])(Notebooks/statistical_nb/univariate_tsa.ipynb)
+   * [univariate_tsa.ipynb](Notebooks/statistical_nb/univariate_tsa.ipynb)
    * [forecasting_inflation_rates_sarima.ipynb](Notebooks/statistical_nb/forecasting_inflation_rates_sarima.ipynb)
      
  **Apply classical ARIMA/SARIMA**
@@ -77,7 +77,7 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
 
  **Explore volatility models (GARCH)**
 
-   * [volatility_modeling_with_Garch.ipynb](Notebooks/statistical_nb/volatility_modeling_with_Garch.ipynb)
+   * [Volatility_modeling_with_Garch.ipynb](Notebooks/statistical_nb/Volatility_modeling_with_Garch.ipynb)
 
  **Extend to multivariate forecasting (VAR)**
 
@@ -85,8 +85,8 @@ The `statistical_nb` folder provides the foundations of time series forecasting,
      
  **Experiment with smoothing methods and Prophet**
 
-   * [Exponential_Smoothing_with_Holt_WInters.ipynb](Notebooks/statistical_nb/Exponential_Smoothing_with_Holt_WInters.ipynb)
-   * [foracasting_with_fb_prophet.ipynb](Notebooks/statistical_nb/foracasting_with_fb_prophet.ipynb)
+   * [Exponential_Smoothing_with_Holt_Winters.ipynb](Notebooks/statistical_nb/Exponential_Smoothing_with_Holt_Winters.ipynb)
+   * [forecasting_with_fb_prophet.ipynb](Notebooks/statistical_nb/foracasting_with_fb_prophet.ipynb)
 
 ## 2. [Machine Learning & Deep Learning](Notebooks/Ml,Dl-nb)
 
@@ -105,7 +105,7 @@ The `ML,DL-nb` folder introduces modern approaches to time series forecasting us
 This section shows how statistical and machine learning methods can be combined for multivariate forecasting, hence compare and integrate both approaches.
 
 
-* `Multivariate_timeseries_VAR-and-Xgboost.ipynb`
+* [Multivariate_timeseries_VAR-and-Xgboost.ipynb](Notebooks/statistical_and_ml_nb/Multivariate_timeseries_VAR-and-Xgboost.ipynb)
 
 
 ---
