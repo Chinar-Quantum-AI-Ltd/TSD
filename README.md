@@ -56,7 +56,7 @@ The notebooks primarily works with the following **financial datasets**:
 
 ---
 
-## Time Series Learning Path – Notebooks Guide
+## Time Series Learning Path : Notebooks Guide
 
 The notebooks are organized into folders and  every notebook is  **independent** but best understood in  the following suggested order:
 
